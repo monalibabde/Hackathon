@@ -23,6 +23,7 @@ const SignUpPage = () => {
       <input type="text" placeholder="Name" className="signup-input" />
       <input type="email" placeholder="Email" className="signup-input" />
       <input type="password" placeholder="Password" className="signup-input" />
+      <input type="address" placeholder="Address" className="signup-input" />
 
       <label className="role-label">Select Your Role</label>
       <select
