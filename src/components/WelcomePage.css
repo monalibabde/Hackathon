@@ -1,0 +1,69 @@
+.welcome-container {
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e0f7e9, #c2f0f7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .welcome-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+  }
+  
+  .eco-heading {
+    font-size: 2.5rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+  }
+  
+  .eco-name {
+    color: #1b5e20;
+    font-weight: bold;
+  }
+  
+  .eco-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .login-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .login-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .register-btn {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .register-btn:hover {
+    background-color: #1976d2;
+  }
+  
