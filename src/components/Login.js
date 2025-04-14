@@ -43,7 +43,6 @@ const LoginPage = () => {
         <option value="">-- Choose Role --</option>
         <option value="User">User</option>
         <option value="Shopkeeper">Shopkeeper</option>
-        <option value="Admin">Admin</option>
         <option value="Recycle Hub">Recycle Hub</option>
       </select>
 

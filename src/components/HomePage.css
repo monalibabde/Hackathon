@@ -1,0 +1,142 @@
+/* src/components/HomePage.css */
+.home-container {
+    padding: 40px;
+    text-align: left;
+    background-color: #e8f5e9;  /* Light Green Background */
+    border-radius: 12px;
+  }
+
+  /* Make the Login/Signup link bold */
+  .Link {
+    color:rgb(19, 20, 19);  /* Change text color to black */
+    font-weight: bold; /* Make text bold */
+    text-decoration: none; /* Optional: remove underline */
+  }
+  
+  .link:hover {
+    color: #555; /* Optional: change color on hover */
+  }
+  
+  
+  .header {
+    background-color:rgb(168, 243, 172);  /* Dark Green */
+    padding: 20px;
+  }
+  
+  .header .logo {
+    height: 40px;
+  }
+  /* Ensure the Login/Signup link is bold */
+
+  .header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    margin-left: 20px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav ul li a {
+    color:rgb(17, 19, 17); 
+     /* Light Green on Hover */
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #66bb6a, #388e3c);  /* Gradient from Light Green to Dark Green */
+    color: white;
+    padding: 60px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .info-section {
+    background: linear-gradient(135deg, #66bb6a, #388e3c);  /* Green gradient */
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .info-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .info-boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  
+  .info-box {
+    background: white;
+    color: #388e3c;  /* Green Text */
+    width: 250px;
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+  }
+  
+  .info-box:hover {
+    transform: translateY(-8px);
+  }
+  
+  .info-icon {
+    font-size: 2.5rem;
+    color: #388e3c;  /* Green Icons */
+    margin-bottom: 15px;
+  }
+  
+  .problem {
+    background-color: #c8e6c9;  /* Light Green */
+    padding: 40px;
+  }
+  
+  .problem h2 {
+    color: #388e3c;  /* Dark Green Text */
+  }
+  
+  .solution {
+    background-color: #66bb6a;  /* Light Green */
+    padding: 40px;
+  }
+  
+  .solution h2 {
+    color: white;
+  }
+  
+  .solution ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .solution ul li {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #388e3c;  /* Dark Green Footer */
+    padding: 20px;
+    color: white;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

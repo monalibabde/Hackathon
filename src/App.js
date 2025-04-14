@@ -1,16 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import WelcomePage from './components/WelcomePage';
+import HomePage from './components/HomePage';  // Make sure the correct path is used for HomePage
+import WelcomePage from './components/WelcomePage';  // Ensure you have this page component
 import Login from './components/Login';
-import Signup from './components/Signup';
+import SignUp from './components/Signup';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
+        <Route path="/" element={<HomePage />} />  {/* Set HomePage as the first route */}
+        <Route path="/welcome" element={<WelcomePage />} />  {/* Route to WelcomePage */}
+        <Route path="/Login" element={<Login />} />
+        <Route path="/SignUp" element={<SignUp />} />
       </Routes>
     </Router>
   );

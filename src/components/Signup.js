@@ -34,7 +34,6 @@ const SignUpPage = () => {
         <option value="User">User</option>
         <option value="Shopkeeper">Shopkeeper</option>
         <option value="Recycle Hub">Recycle Hub</option>
-        <option value="Admin">Admin</option>
       </select>
 
       {(role === "Shopkeeper" || role === "Recycle Hub") && (
